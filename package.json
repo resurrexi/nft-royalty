@@ -1,10 +1,15 @@
 {
+  "scripts": {
+    "ganache": "ganache --wallet.seed 1337"
+  },
   "devDependencies": {
     "@openzeppelin/contracts": "^4.7.3",
     "dotenv": "^16.0.3",
+    "ganache": "^7.4.4",
     "prettier": "^2.7.1",
     "prettier-plugin-solidity": "^1.0.0-beta.24",
     "solhint": "^3.3.7",
-    "solhint-plugin-prettier": "^0.0.5"
+    "solhint-plugin-prettier": "^0.0.5",
+    "truffle": "^5.6.1"
   }
 }

@@ -5,3 +5,4 @@ coverage
 coverage.json
 typechain
 typechain-types
+build
