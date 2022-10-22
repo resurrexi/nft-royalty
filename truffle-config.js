@@ -56,6 +56,9 @@ module.exports = {
    *
    * $ truffle test --network <network-name>
    */
+  dashboard: {
+    port: 24012,
+  },
 
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default
@@ -68,6 +71,9 @@ module.exports = {
       host: "127.0.0.1", // Localhost (default: none)
       port: 8545, // Standard Ethereum port (default: none)
       network_id: "*", // Any network (default: none)
+    },
+    dashboard: {
+      networkCheckTimeout: 120000,
     },
     //
     // An additional network, but with some advanced options…
